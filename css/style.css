@@ -1,0 +1,429 @@
+.fa-eye.active{
+    color:black !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.eye.active2{
+    color:black !important;
+
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+}
+
+.profile .search{
+    height: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.search input{
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+}
+
+.dropdown{
+    width: 40px;
+    margin-right: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cg_profile img{
+    width: 200px;
+    height: 200px;
+}
+
+.bio{
+    resize: none;
+    height: 130px;
+}
+
+.home{
+    min-height: 100vh;
+    background-color: #E9EBEE;
+
+}
+
+.sidebox{
+    background-color: #E9EBEE;
+}
+.sidebar li{
+    width: 240px !important;
+    /* width: 100% !important; */
+    background-color: #E9EBEE;
+
+}
+
+.sidebox .sidebar{
+    /* width: 100%; */
+    position: fixed;
+    top: 4rem;
+}
+
+.story{
+    width: 100%;
+    display: flex;  
+    /* display: grid; */
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: start; /* Adjust as needed */
+    align-items: center;
+    overflow-x: auto; 
+    /* grid-template-rows: auto; */
+    gap: 20px !important;
+}
+
+.container-fluid{
+    background-color: #E9EBEE;
+
+}
+
+.story::-webkit-scrollbar{
+    width: 0;
+    scroll-behavior: smooth;
+}
+
+.story-container{
+    margin-top: 60px !important;
+    min-height: 89vh;
+}
+
+.viewProfile-container{
+    margin-top: 80px !important;
+    min-height: 86vh;
+    border-radius: 10px;
+}
+
+.chatConversation-container{
+    margin-top: 80px !important;
+    max-height: 87.4vh;
+}
+
+.all-friend{
+    gap: 20px;
+}
+
+.chatUser-detail{
+    height: 70px;
+}
+
+.chatName{
+    gap: 10px;
+
+}
+
+.chatName img{
+    width: 60px;
+    height: 60px;
+}
+
+.chating-conversation{
+    height: 350px;
+    background-color: #E9EBEE;
+    overflow-y: scroll;
+}
+
+.chating-conversation::-webkit-scrollbar{
+    width: 0;
+    scroll-behavior: smooth;
+}
+.chating-sendbtn{
+    height: 60px;
+    gap: 10px;
+    background-color: #90949C;
+}
+
+.plusIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.textMsg{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.textMsg input[type='text']{
+    width: 600px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.friend-detail img{
+    width: 80px;
+    height: 80px;
+}
+
+.friendMsg{
+    max-width: 300px;
+    min-height: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(76, 75, 75);
+    border-radius:0 15px 15px 15px;
+}
+
+.friendimg img{
+    width: 50px;
+    height: 50px;
+}
+.chatingMe img{
+    width: 50px;
+    height: 50px;
+}
+
+.chatingMe{
+    gap: 10px;
+}
+
+.MyMsg{
+    max-width: 300px;
+    min-height: 40px;
+    background-color:#4267B3;
+    box-shadow: 0 0 10px rgb(76, 75, 75);
+    border-radius:15px 0 15px 15px;
+    color: white;
+}
+
+.viewProfile-detail img{
+    width: 300px;
+    height: 300px;
+}
+
+.friend-container{
+    margin: 80px 0 20px !important;
+    border-radius: 10px;
+    position: fixed;
+    right: 2%;
+    min-height: 86vh;
+    width: 28rem !important;
+}
+
+.friendBox img{
+    width: 50px;
+    height: 50px;
+}
+
+.friendimg{
+    gap: 10px;
+}
+
+.story-box{
+    flex: 0 0 auto;
+    width: 150px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    position: relative;
+    /* z-index: 1; */
+    
+}
+
+.story-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.739) 20%, rgba(0,0,0,0) 70%);
+}
+
+.overlay img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; This property ensures the image covers the entire container */
+}
+
+.icon{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.icon .icon-btn{
+    width: 50px;
+    height: 50px;
+    
+}
+
+#post_btn:hover{
+  background-color: blue !important;
+    
+}
+
+.my-view-story .icon{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+
+}
+
+.frnd-view-story .icon{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.frnd-view-story .icon .icon-btn{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.frnd-view-story p{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.my-view-story .icon .icon-btn{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.my-view-story p{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.post_profile{
+    gap: 10px;
+}
+
+.post_profile img{
+    width: 80px;
+    height: 80px;
+}
+
+.buttonClick button{
+    height: 50px !important;
+}
+
+.viewImg img{
+    height: 25rem;
+}
+
+.comment-postbtn{
+    background-color: #e5e6e8;
+    /* height: 50px; */
+    font-size: 18px;
+
+}
+
+.like-btn:hover{
+    color: #4267B3;
+    cursor: pointer;
+}
+
+.comment-btn:hover{
+    color: black !important;
+    cursor: pointer;
+
+}
+
+
+.comment-postbtn input[type = 'text']{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.comment-postbtn input[type = 'text']::placeholder{
+    color:black;
+}
+
+.viewPost-main{
+    position: relative !important;
+}
+
+  .toast {
+    position: absolute !important;
+    /* top: 100%; */
+    right: -100%;
+    bottom: -150px;
+    
+    transition: right 0.3s ease-in-out;
+  }
+
+  .toast.show {
+    right: 0;
+  }
+
+  .viewProfile-allPost{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    row-gap: 20px;
+  }
+
+  .viewProfile-allPost img{
+    width: 14rem;
+    height: 200px;
+    box-shadow: 0 0 5px black;
+  }
+
+  .chatDefault img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .chatDefault{
+    gap: 20px;
+  }
+
+  .commentUser{
+    gap: 10px;
+  }
+
+  .commentUser img{
+    width: 60px;
+    height: 60px;
+  }
+ 
+
+  .cmtName{
+    background-color: #90949C;
+    border-radius: 0 15px 15px 15px  !important;
+
+  }
+
+  .cmtName p{
+    max-width: 200px;
+    min-height: 40px;
+  }
+
+
+.modal-body{
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+  
